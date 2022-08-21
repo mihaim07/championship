@@ -35,26 +35,37 @@
     <div id="welcome" data-aos="fade-down">Bine ai venit pe site-ul<br> Turneului de fotbal Argeș</div>
     <div data-aos="zoom-out-up" data-aos-delay="1000" id="welcome-access-info">Aici găsești informațiile de inters despre turneu. 
       <br>Scroll <span style='font-size:1rem;'>&#8659;</span> sau acceseaza iconița meniu <span style='font-size:1rem;'>&#9776;</span> pentru a vizualiza principalele categorii de informații.</div>
-  </section>
+      <div class="section-overlay-home"></div>
+    </section>
   <section id="countdown">
     <video class="video-background" id="video-background" loop muted autoplay>
       <source src="time.mp4"></source>
     </video>
     <div class="video-overlay"></div>
     <!-- Countdown -->
-    <div class="countdown" id="countdown">
+    <div class="countdown" id="countdown" data-aos="">
       <h1 id="countdown-title">Au mai rămas ...</h1>
-      <ul>
+      <ul data-aos="fade-right" data-aos-delay="500">
           <li><span></span>Zile</li>
           <li><span></span>Ore</li>
           <li><span></span>Minute</li>
           <li><span></span>Secunde</li>
       </ul>
     </div>
+    <div class="section-overlay"></div>
   </section>
-  <section id="program"><h1>These Are My Strengths</h1></section>
+  <section id="program"><h1>These Are My Strengths</h1>
+    <div class="section-overlay-program"></div>
+  </section>
   <section id="echipe"><h1>These Are My Results</h1></section>
-  <section id="locatii"><h1>These Are My Results</h1></section>
+  <section id="locatii"><h1>These Are My Results</h1>
+    <div class="showtheway"><a href="https://showtheway.io/to/44.85648,24.869182?name=Pite%C8%99ti" target="_blank" title="Show the Way to Pitești with your favorite navigation application">Show the Way</a></div><script src="https://showtheway.io/w.js" async="async" type="text/javascript"></script>
+    <div class="iframe">
+      <iframe class="iframe-1" src="https://embed.waze.com/iframe?zoom=14&lat=44.439234&lon=26.042833&ct=livemap" allowfullscreen></iframe>
+      <iframe src="https://embed.waze.com/iframe?zoom=14&lat=44.439234&lon=26.042833&ct=livemap" allowfullscreen></iframe>
+      <iframe src="https://embed.waze.com/iframe?zoom=14&lat=44.439234&lon=26.042833&ct=livemap" allowfullscreen></iframe>
+    </div>
+  </section>
   <section id="contact"><h1>Available Anytime</h1></section>
   <!-- Script -->
   <script src="script.js"></script>

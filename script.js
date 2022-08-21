@@ -38,8 +38,8 @@ function toggleNav() {
 function updateCountdown() {
   setInterval(() => {
     const now = new Date().getTime();
-    const startDate = new Date('Octomber 1, 2022 09:00:00');
-    const distance = startDate - now;
+    const startDate = new Date('October 1, 2022 09:00:00');
+    const distance = Number(startDate)-Number(now);
     const second = 1000;
     const minute = second * 60;
     const hour = minute * 60;

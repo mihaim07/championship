@@ -18,6 +18,27 @@ body {
   margin: 0;
   background: #000;
   font-family: Nunito, sans-serif;
+  overflow-x: hidden;
+  background-image: url("./backgroundLandingPage9.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  /* background-position: center center; */
+}
+
+.showtheway {
+  /* background-color: rgb(235, 25, 25); */
+  background-image: url("./backgroundLandingPage10.jpg");
+  opacity: 0.9;
+  color: #000;
+  width: 100px;
+  background-position: 80% 80%;
+}
+
+.showtheway img {
+  opacity: 0;
+  width: 100px;
+  height: 100px;
 }
 
 /* --- Navigation Menu ------------------------------ */
@@ -99,11 +120,11 @@ nav li:nth-of-type(1) {
 }
 
 nav li:nth-of-type(2) {
-  background-color: var(--navColor2);
+  background-color: var(--navColor3);
 }
 
 nav li:nth-of-type(3) {
-  background-color: var(--navColor3);
+  background-color: var(--navColor2);
 }
 
 nav li:nth-of-type(4) {
@@ -238,11 +259,23 @@ section {
   color: var(--primaryColor);
 }
 
+.section-overlay-home {
+  position:absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 0.7;
+  z-index: -1;
+}
+
 section#home {
-  background-image: url("./backgroundLandingPage7.jpg");
-  background-size: cover;
-  background-position: center center;
+  /* background-image: url("./backgroundLandingPage7.jpg");
+  background-size: cover; */
+  /* background-position: center center; */
   display: grid;
+  z-index: -2;
 }
 
 section#home a {
@@ -261,31 +294,31 @@ section#home a {
 #welcome {
   font-size: 3rem;
   text-align: center;
-  margin-top: 200px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-top: 28%;
+  margin-left: 5%;
+  /* margin-right: auto; */
   width: fit-content;
-  color: rgb(134, 8, 165);
+  color: rgb(255, 255, 255);
   font-weight: 600;
-  background-color: rgba(255, 255, 255, 0.7);
-  border-radius: 10px;
 }
 
 #welcome-access-info {
   color: #fff;
   text-align: center;
-  margin-top: -5%;
+  margin-top: 15%;
+  margin-left: -15%;
 }
 
 section#countdown {
-  /* background-color: var(--navColor2); */
-  /* background-color: rgb(177, 104, 2); */
+  position: relative;
 }
 
 #countdown-title {
   text-align: center;
+  font-size: 2.5rem;
   animation: complete 4s infinite;
   position: absolute;
+  width: 25%;
 }
 
 @keyframes complete {
@@ -328,6 +361,7 @@ video {
   transform: translate(-50%, -50%);
   object-fit: cover;
   z-index: -1;
+  opacity: 0.5;
 }
 
 .video-overlay {
@@ -341,12 +375,12 @@ video {
 
 /* Countdown */
 .countdown {
-  margin-left: -50%;
+  margin-left: -45%;
 }
 
 ul {
   margin-left: 0;
-  
+  margin-top: 20%;
 }
 
 
@@ -355,6 +389,7 @@ li {
   display: inline-block;
   font-size: 30px;
   list-style-type: none;
+  box-sizing: border-box;
   padding: 10px;
   text-transform: uppercase;
 }
@@ -366,7 +401,19 @@ li span {
 }
 
 section#program {
-  background-color: var(--navColor3);
+  /* background-color: var(--navColor3);
+  opacity: 0.1; */
+}
+
+.section-overlay-program {
+  position:absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(180, 56, 56, 0.7);
+  opacity: 0.7;
+  z-index: -1;
 }
 
 section#echipe {
@@ -375,6 +422,21 @@ section#echipe {
 
 section#locatii {
   background-color: var(--navColor5);
+  display: flex;
+  flex-direction: column;
+}
+
+.iframe-1 {
+  width: 300px;
+  height: 300px;
+}
+
+iframe {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 500px;
+  height:500px;
 }
 
 section#contact {
@@ -383,8 +445,14 @@ section#contact {
 
 /* Media Query: Large Smartphone (Vertical) */
 @media (max-width: 600px) {
+
+  body {
+    background-image: url("./backgroundLandingPage10.jpg");
+    background-position: 20% 0%;
+  }
+
   section#home {
-    background-image: url("./backgroundLandingPage4.jpg");
+    /* background-image: url("./backgroundLandingPage4.jpg"); */
   }
 
   section#home a {
@@ -416,15 +484,24 @@ section#contact {
   .countdown {
     margin-right: auto;
     margin-left: auto;
-    margin-top: -30%;
-    width: 100vh;
+    margin-top: -5%;
+    width: 90vw;
+    /* background-color:rgba(255, 255, 255, 0.7); */
+    border-radius: 12%;
+  }
+
+  #countdown-title {
+    font-size: 1.4rem;
+    margin: 15%;
+    width: 67%;
+    right: 7px;
   }
 
   div#countdown ul {
     font-size: 30px;
     display: flex;
     justify-content: center;
-    padding: 0px;
+    margin-top: 30%;
   }
 
   div#countdown li {
