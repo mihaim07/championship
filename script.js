@@ -34,6 +34,8 @@ function toggleNav() {
   }
 }
 
+
+
 // Countdown
 function updateCountdown() {
   setInterval(() => {
