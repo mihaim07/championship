@@ -2,12 +2,15 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="height=device-height, 
+                      width=device-width, initial-scale=1.0, 
+                      minimum-scale=1.0, maximum-scale=1.0, 
+                      user-scalable=no, target-densitydpi=device-dpi">
   <title>Animated Navigation</title>
   <link rel="icon" type="image/png" href="favicon.png">
   <link rel="stylesheet" href="style.css">
   <!-- AOS Library -->
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
 </head>
 <body>
   <!-- Menu Overlay -->
@@ -32,6 +35,23 @@
   </div>
   <!-- Sections -->
   <section id="home">
+    <div class="sponsors">
+      <div id="sponsors-title">Parteneri</div>
+      <div class="sponsors-all">
+        <div id="cj"></div>
+        <div id="primaria"></div>
+        <div id="padding"></div>
+        <div id="marcea"></div>
+        <div id="jts"></div>
+      </div>
+      <div class="sponsors-sites">
+        <div id="cj-site"><a href="https://www.cjarges.ro/">www.cjarges.ro</a></div>
+        <div id="primaria-site"><a href="https://www.primariapitesti.ro/">www.primariapitesti.ro</a></div>
+        <div id="padding-site"></div>
+        <div id="marcea-site"><a href="https://www.marcea.ro/">www.marcea.ro</a></div>
+        <div id="jts-site"><a href="https://www.jtssolar.ro/">www.jtssolar.ro</a></div>
+      </div>
+    </div>
     <div id="welcome" data-aos="fade-down">Bine ai venit pe site-ul<br> Turneului de fotbal Argeș</div>
     <div data-aos="zoom-out-up" data-aos-delay="1000" id="welcome-access-info">Aici găsești informațiile de inters despre turneu. 
       <br>Scroll <span style='font-size:1rem;'>&#8659;</span> sau acceseaza iconița meniu <span style='font-size:1rem;'>&#9776;</span> pentru a vizualiza principalele categorii de informații.</div>
@@ -63,15 +83,15 @@
   <section id="locatii">
     <!-- <div class="showtheway"><a href="https://showtheway.io/to/44.85648,24.869182?name=Pite%C8%99ti" target="_blank" title="Show the Way to Pitești with your favorite navigation application">Show the Way</a></div><script src="https://showtheway.io/w.js" async="async" type="text/javascript"></script> -->
     <div class="iframe">
-      <div id="map-1" data-aos="flip-left" data-aos-delay="500">
+      <div id="map-1"  >
         <h5 id="map-1-text">Obține indicațiile de orientare  <br> <b>Terenurile de fotbal --></b> <span id="map-here"><div class="showtheway"><a href="https://showtheway.io/to/44.847942,24.86581" target="_blank" title="Show the Way to Pitești with your favorite navigation application">Show the Way</a></div><script src="https://showtheway.io/w.js" async="async" type="text/javascript"></script> </span></h5>
         <iframe id="iframe-1" src="https://embed.waze.com/iframe?zoom=17&lat=44.846627&lon=24.867307&ct=livemap" allowfullscreen></iframe>
       </div>
-      <div id="map-2" data-aos="zoom-out-up">
+      <div id="map-2" >
         <h5 id="map-1-text">Obține indicațiile de orientare  <br> <b>Hotel Ramada --></b> <span id="map-here"><div class="showtheway"><a href="https://showtheway.io/to/44.864772,24.876899" target="_blank" title="Show the Way to Pitești with your favorite navigation application">Show the Way</a></div><script src="https://showtheway.io/w.js" async="async" type="text/javascript"></script> </span></h5>
         <iframe id="iframe-2" src="https://embed.waze.com/iframe?zoom=17&lat=44.864865&lon=24.877253&ct=livemap" allowfullscreen></iframe>
       </div>
-      <div id="map-3" data-aos="flip-right" data-aos-delay="500">
+      <div id="map-3" >
         <h5 id="map-1-text">Obține indicațiile de orientare  <br> <b>Hotel Victoria --></b> <span id="map-here"><div class="showtheway"><a href="https://showtheway.io/to/44.853936,24.874248" target="_blank" title="Show the Way to Pitești with your favorite navigation application">Show the Way</a></div><script src="https://showtheway.io/w.js" async="async" type="text/javascript"></script> </span></h5>
         <iframe id="iframe-3" src="https://embed.waze.com/iframe?zoom=17&lat=44.854386&lon=24.874163&ct=livemap" allowfullscreen></iframe>
       </div>
@@ -80,10 +100,10 @@
     <div class="section-overlay-locatii"></div>
   </section>
   <section id="contact">
-    <div class="contact-persons">
+    <!-- <div class="contact-persons">
       <div id="contact-person-1"></div>
       <div id="contact-person-2"></div>
-    </div>
+    </div> -->
     <div class="section-overlay-contact"></div>
   </section>
   <!-- Script -->

@@ -281,7 +281,107 @@ section#home {
   background-size: cover; */
   /* background-position: center center; */
   display: grid;
-  z-index: -2;
+  /* z-index: -2; */
+}
+
+.sponsors {
+  width: 80vw;
+  margin: auto 10%;
+  background-color: rgba(255, 255, 255, 1);
+  opacity: 0.9;
+  height: 16%;
+  position: absolute;
+  top: 0;
+  z-index: 4;
+  box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.5);
+}
+
+#sponsors-title {
+  width: 15%;
+  height: 45%;
+  margin: auto 40%;
+  background-color:#4392ec;
+  z-index: 5;
+  position: absolute;
+  border-radius: 0 0 70% 70%;
+  font-size: xx-large;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.sponsors-all {
+  display: flex;
+  width: 100%;
+  height: 75%;
+}
+
+#cj {
+  background-image: url('./cj.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 5;
+  width: 20%;
+}
+
+#primaria {
+  background-image: url('./primaria.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 5;
+  width: 20%;
+}
+
+#marcea {
+  background-image: url('./marcea.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 5;
+  width: 20%;
+}
+
+#jts {
+  background-image: url('./jts.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 5;
+  width: 25%;
+}
+
+#padding {
+  width: 15%;
+}
+
+.sponsors-sites {
+  display: flex;
+  width: 100%;
+  height: 25%;
+  z-index: 5;
+}
+
+#cj-site {
+  width: 20%;
+  z-index:5;
+}
+
+#primaria-site {
+  width: 20%;
+}
+
+#padding-site {
+  width: 15%;
+}
+
+#marcea-site {
+  width: 20%;
+}
+
+#jts-site {
+  width: 25%;
 }
 
 #welcome {
@@ -560,8 +660,42 @@ section#contact {
   }
 
   .menu-bars {
-    top: 0.5rem;
-    right: 1rem;
+    top: 5rem;
+    right: 1.5rem;
+  }
+
+  .sponsors {
+    width: 100vw;
+    height: 7vh;
+    margin: 0;
+  }
+
+  .sponsors-all {
+    height: 100%;
+  }
+
+  #cj {
+    width: 25%;
+  }
+
+  #primaria {
+    width: 25%;
+  }
+
+  #marcea {
+    width: 25%;
+  }
+
+  #jts {
+    width: 25%;
+  }
+
+  .sponsors-sites {
+    display:none;
+  }
+
+  #padding, #sponsors-title {
+    display: none;
   }
 
   #welcome {
@@ -663,10 +797,10 @@ section#contact {
     display: none;
   }
 
-  .contact-persons {
+  /* .contact-persons {
     flex-direction: column;
     width: 100%;
     margin: auto;
-  }
+  } */
 
 }
