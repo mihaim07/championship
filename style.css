@@ -507,6 +507,7 @@ section#contact {
 
 .contact-persons {
   display: flex;
+  justify-content: space-around;
   width: 50vw;
   height: 50vh;
   z-index: 2;
@@ -521,6 +522,7 @@ section#contact {
   background-repeat: no-repeat;
   background-size: 300px;
   object-position: 40% 70%;
+  background-color:  rgba(64, 47, 158, 0.5);
   object-fit: cover;
   border-radius: 50%;
   border: 5px solid red;
@@ -528,6 +530,15 @@ section#contact {
 
 #contact-person-2 {
   background-image: url("./2.png");
+  width: 350px;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-size: 300px;
+  object-position: 40% 70%;
+  background-color:  rgba(64, 47, 158, 0.5);
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid red;
 }
 
 
@@ -651,4 +662,11 @@ section#contact {
     text-align: center; */
     display: none;
   }
+
+  .contact-persons {
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+  }
+
 }
