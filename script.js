@@ -58,6 +58,13 @@ function updateCountdown() {
 }
 
 // Event Listeners
+window.addEventListener('scroll', () => {
+  if (window.scrollY >= 200) {
+    menuBars.classList.replace('menu-bars', 'menu-bars-scroll')
+  } else {
+    menuBars.classList.replace('menu-bars-scroll', 'menu-bars')
+  }
+});
 menuBars.addEventListener('click', toggleNav);
 navItems.forEach((nav) => {
   nav.addEventListener('click', toggleNav);

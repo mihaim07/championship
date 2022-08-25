@@ -219,6 +219,15 @@ nav li:nth-of-type(6) {
 
 .menu-bars {
   position: fixed;
+  top: 5rem;
+  right: 2rem;
+  z-index: 10;
+  display: inline;
+  cursor: pointer;
+}
+
+.menu-bars-scroll {
+  position: fixed;
   top: 1rem;
   right: 2rem;
   z-index: 10;
@@ -531,12 +540,11 @@ li span {
   text-align: center;
 }
 
-section#program {
-  /* background-color: var(--navColor3);
-  opacity: 0.1; */
+section#echipe {
+
 }
 
-.section-overlay-program {
+.section-overlay-echipe {
   position:absolute;
   left: 0;
   top: 0;
@@ -547,11 +555,11 @@ section#program {
   z-index: -1;
 }
 
-section#echipe {
-  /* background-color: var(--navColor4); */
+section#program {
+  
 }
 
-.section-overlay-echipe {
+.section-overlay-program {
   position:absolute;
   left: 0;
   top: 0;
@@ -584,17 +592,17 @@ section#locatii {
   flex-direction: row;
   justify-content: space-around;
   width: 100vw;
-  /* height: 100vh; */
-  margin-top: -20%;
+  height: 50vh;
+  margin-top: -10%;
 }
 
 .iframe a {
   text-decoration: none;
 }
 
-#map-1, #map-2, #map-3 {
-  width: 25%;
-  height: 500px;
+#map-1, #map-2, #map-3, #map-4 {
+  width: 20%;
+  /* height: 90%; */
   margin: 0;
   /* height: 12%; */
   /* position: absolute;
@@ -602,7 +610,7 @@ section#locatii {
   top: 10%; */
 }
 
-#map-1-text, #map-2-text, #map-3-text {
+#map-1-text, #map-2-text, #map-3-text, #map-4-text {
   text-align: center;
   width: 100%;
   height: 10%;
@@ -611,7 +619,7 @@ section#locatii {
 
 
 
-#iframe-1, #iframe-2, #iframe-3 {
+#iframe-1, #iframe-2, #iframe-3, #iframe-4 {
   width: 100%;
   height: 100%;
   /* height: 25%; */
@@ -807,37 +815,55 @@ section#contact {
   }
 
   /* Locatii */
+
+  section#locatii {
+    height: 150vh;
+  }
+
+  .section-overlay-locatii {
+    position:absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 150vh;
+    background-color: var(--navColor5);
+    opacity: 0.5;
+    z-index: -1;
+  }
+
   .iframe {
     display: flex;
     flex-direction: column;
     justify-content:last baseline;
     align-items: center;
-    margin-top: -22%;
-    /* width: 100vw;
-    /* margin-top: -20%; */ */
+    /* margin-top: -22%; */
+    height: 150vw;
+    margin-top: 10%;
   }
 
-  #iframe-1, #iframe-2, #iframe-3 {
+  #iframe-1, #iframe-2, #iframe-3, #iframe-4 {
     width: 100%;
-    height: 100%;
+    height: 85%;
     /* height: 25%; */
   }
 
-  #map-1, #map-2, #map-3 {
+  #map-1, #map-2, #map-3, #map-4 {
     width: 80%;
-    height: 25%;
+    height: 35%;
     margin: 0;
     padding: 5%;
+    padding-bottom: 15%;
+    /* box-sizing: border-box; */
     /* height: 12%; */
     /* position: absolute;
     left: 10%;
     top: 10%; */
   }
   
-  #map-1-text, #map-2-text, #map-3-text {
+  #map-1-text, #map-2-text, #map-3-text, #map-4-text {
     text-align: center;
     width: 100%;
-    /* height: 10%; */
+    height: 25%;
     font-size: 0.9rem;
     text-transform: none;
   }
