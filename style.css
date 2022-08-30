@@ -319,7 +319,7 @@ section#home {
   z-index: 5;
   position: absolute;
   border-radius: 0 0 70% 70%;
-  font-size: xx-large;
+  font-size: 90%;
   font-weight: bold;
   text-align: center;
   vertical-align: middle;
@@ -677,6 +677,7 @@ section#parteneri .parteneri-logo {
 section#parteneri a {
   text-decoration: none;
   color:#fff;
+  text-transform: lowercase;
 }
 
 
@@ -751,7 +752,7 @@ a#parteneri-logo-jts {
   position: absolute;
   margin: auto;
   top: 35%;
-  width: 50%;
+  width: 40%;
   height: auto;
 }
 
@@ -1020,6 +1021,56 @@ a#parteneri-logo-jts {
     display: none;
   }
 
-  
+  /* Parteneri */
 
+  section#parteneri #parteneri-title {
+    font-size: 1.5rem;
+    top: 3%;
+  }
+
+  .slideshow-container {
+    width: 90%;
+    top: 45%;
+  }
+
+  section#parteneri .parteneri-logo {
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+  }
+
+  a#parteneri-logo-cj, a#parteneri-logo-primarie, a#parteneri-logo-marcea, a#parteneri-logo-jts {
+    width: 30%;
+    height: 50%;
+    margin-left: 7%;
+  }
+
+  a#parteneri-logo-primarie { 
+    width: 50%;
+    background-size: 110% 45%;
+    margin-left: 0;
+  }
+
+  a#parteneri-logo-marcea {
+    width: 50%;
+    background-size: 80% 35%;
+    margin-left: 0;
+  }
+
+  a#parteneri-logo-jts {
+    width: 50%;
+    margin-left: 0;
+  }
+
+  a#parteneri-site-cj, a#parteneri-site-primarie {
+    font-size: 0.55rem;
+    text-align: center;
+    top: 50%;
+    bottom: auto;
+  }
+
+  a#parteneri-site-marcea, a#parteneri-site-jts {
+    font-size: 0.55rem;
+    bottom: 3%;
+  }
 }
+
