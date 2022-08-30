@@ -290,7 +290,7 @@ section {
   width: 100vw;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.7);
-  opacity: 0.7;
+  opacity: 0.3;
   /* -webkit-transform: translate3d(0,0,0); */
   /* z-index: -1; */
 }
@@ -547,6 +547,55 @@ li span {
 }
 
 section#echipe {
+
+}
+
+#echipe-titlu {
+  position:absolute;
+  top: 3%;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.container-echipe {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+  align-items: center;
+  justify-items: center;
+  overflow: auto;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  width: 70%;
+  height: 70%;
+  border-radius: 3%;
+  background-color: rgba(255, 255, 255, 1);
+  opacity: 0.7;
+}
+
+.echipa {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 65%;
+  height: 85%;
+}
+
+.echipa-logo {
+  background-image: url('./dj.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 80%;
+  height: 80%;
+
+}
+
+.echipa-nume {
+  font-size: small;
+  font-weight: bold;
+  color: blue;
 
 }
 
@@ -808,22 +857,6 @@ a#parteneri-logo-jts {
   top: 0;
 }
 
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
 /* Fading animation */
 .fade {
   animation-name: fade;
@@ -966,6 +999,33 @@ a#parteneri-logo-jts {
     font-size: 2rem;
   }
 
+  /* Echipe */
+
+  .container-echipe {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 20% 20% 20% 20% 20% 20% 20% 20%;
+    align-items: center;
+    justify-items: center;
+    overflow: auto;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 90%;
+    height: 80%;
+    border-radius: 3%;
+    background-color: rgba(255, 255, 255, 1);
+    opacity: 0.7;
+  }
+  
+  .echipa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 65%;
+    height: 85%;
+  }
+
   /* Locatii */
 
   section#locatii {
@@ -1030,7 +1090,7 @@ a#parteneri-logo-jts {
 
   .slideshow-container {
     width: 90%;
-    top: 45%;
+    top: 35%;
   }
 
   section#parteneri .parteneri-logo {
@@ -1041,7 +1101,11 @@ a#parteneri-logo-jts {
   a#parteneri-logo-cj, a#parteneri-logo-primarie, a#parteneri-logo-marcea, a#parteneri-logo-jts {
     width: 30%;
     height: 50%;
-    margin-left: 7%;
+    margin-left: 3%;
+  }
+
+  a#parteneri-logo-cj {
+    background-size: 70% 70%;
   }
 
   a#parteneri-logo-primarie { 
@@ -1053,7 +1117,7 @@ a#parteneri-logo-jts {
   a#parteneri-logo-marcea {
     width: 50%;
     background-size: 80% 35%;
-    margin-left: 0;
+    margin-left: -5%;
   }
 
   a#parteneri-logo-jts {
@@ -1064,13 +1128,21 @@ a#parteneri-logo-jts {
   a#parteneri-site-cj, a#parteneri-site-primarie {
     font-size: 0.55rem;
     text-align: center;
-    top: 50%;
+    top: 45%;
     bottom: auto;
   }
 
-  a#parteneri-site-marcea, a#parteneri-site-jts {
+  a#parteneri-site-marcea {
     font-size: 0.55rem;
     bottom: 3%;
+    margin-left: 1%;
   }
+
+  a#parteneri-site-jts {
+    font-size: 0.55rem;
+    bottom: 3%;
+    margin-left: 7%;
+  }
+
 }
 
