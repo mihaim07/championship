@@ -1075,6 +1075,12 @@ a#parteneri-logo-jts {
     box-sizing: border-box;
   }
 
+  .echipa-logo {
+    margin-top: 1%;
+    width: 70%;
+    height: 70%;
+  }
+
   /* Locatii */
 
   section#locatii {
