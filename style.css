@@ -638,9 +638,176 @@ section#echipe {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  /* width: 80%;
-  height: 80%; */
 }
+#echipa-7 {
+  background-image: url('./logo-echipe/bv.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#echipa-8 {
+  background-image: url('./logo-echipe/cv.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#echipa-11 {
+  background-image: url('./logo-echipe/dj.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#echipa-12 {
+  background-image: url('./logo-echipe/ot.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#echipa-13 {
+  background-image: url('./logo-echipe/cj.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#echipa-14 {
+  background-image: url('./logo-echipe/hd.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#echipa-15 {
+  background-image: url('./logo-echipe/sm.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#echipa-16 {
+  background-image: url('./logo-echipe/bc.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#echipa-17 {
+  background-image: url('./logo-echipe/bt.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#echipa-18 {
+  background-image: url('./logo-echipe/vs.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#echipa-19 {
+  background-image: url('./logo-echipe/ph.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#echipa-20 {
+  background-image: url('./logo-echipe/db.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#echipa-22 {
+  background-image: url('./logo-echipe/is.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#echipa-23 {
+  background-image: url('./logo-echipe/nt.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#echipa-24 {
+  background-image: url('./logo-echipe/sv.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#echipa-26 {
+  background-image: url('./logo-echipe/vl.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#echipa-27 {
+  background-image: url('./logo-echipe/mh.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#echipa-28 {
+  background-image: url('./logo-echipe/gl.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#echipa-29 {
+  background-image: url('./logo-echipe/br.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#echipa-30 {
+  background-image: url('./logo-echipe/vn.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#echipa-32 {
+  background-image: url('./logo-echipe/ab.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#echipa-33 {
+  background-image: url('./logo-echipe/sj.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#echipa-35 {
+  background-image: url('./logo-echipe/bz.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#echipa-36 {
+  background-image: url('./logo-echipe/tl.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#echipa-39 {
+  background-image: url('./logo-echipe/hr.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#echipa-40 {
+  background-image: url('./logo-echipe/ms.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#echipa-42 {
+  background-image: url('./logo-echipe/cl.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#echipa-43 {
+  background-image: url('./logo-echipe/il.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 
 .section-overlay-echipe {
   position:absolute;
