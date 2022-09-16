@@ -101,7 +101,7 @@ function showSlides2(n) {
 
 // Event Listeners
 window.addEventListener('scroll', () => {
-  if (window.scrollY >= 200) {
+  if (window.scrollY >= 100) {
     menuBars.classList.replace('menu-bars', 'menu-bars-scroll')
   } else {
     menuBars.classList.replace('menu-bars-scroll', 'menu-bars')
