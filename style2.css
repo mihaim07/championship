@@ -585,14 +585,15 @@ section#clasament {
 
 #clasament-title {
   position:absolute;
-  top: 3%;
-  right: 20%;
+  top: 1%;
+  /* right: 5%; */
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 2rem;
 }
 
 #clasament-live {
-  width: 90%;
+  margin-top: 5%;
+  width: 50%;
   height: 80%;
 }
 
@@ -1337,6 +1338,20 @@ a#parteneri-logo-mag {
 
   li span {
     font-size: 2rem;
+  }
+
+  /* Clasament */
+  #clasament-title {
+    position:absolute;
+    top: 3%;
+    right: 20%;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  #clasament-live {
+    width: 90%;
+    height: 80%;
   }
 
   /* Echipe */
