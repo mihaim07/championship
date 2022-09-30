@@ -1023,7 +1023,7 @@ section#parteneri .parteneri-logo {
   position: absolute;
   width: 90%;
   height: 20%;
-  top: 10%;
+  top: 5%;
   left: 0;
 }
 
@@ -1076,6 +1076,14 @@ a#parteneri-site-hostgate, a#parteneri-site-mag {
 
 a#parteneri-site-cj {
   left: 0;
+}
+
+a#parteneri-site-placari {
+  position: absolute;
+  top: 38%;
+  right: 45%;
+  text-align: center;
+  font-size: 1.2rem;
 }
 
 a#parteneri-logo-primarie {
@@ -1134,12 +1142,24 @@ a#parteneri-logo-mag {
   height: 80%;
 }
 
+a#parteneri-logo-placari {
+  background-image: url("./placari.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: -7%;
+  right: 37%;
+  width: 25%;
+  height: 80%;
+}
+
 /* Slideshow container /////////////////////////////////////////////////////////////////*/
 .slideshow-container {
   /* max-width: 1000px; */
   position: absolute;
   margin: auto;
-  top: 40%;
+  top: 43%;
   width: 40%;
   height: auto;
 }
@@ -1475,13 +1495,14 @@ a#parteneri-logo-mag {
 
   .slideshow-container {
     width: 90%;
-    top: 47%;
+    top: 50%;
   }
 
   section#parteneri .parteneri-logo {
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50% 50%;
     left: 5%;
+    top: 10%;
   }
 
   a#parteneri-logo-cj, a#parteneri-logo-primarie, a#parteneri-logo-marcea, a#parteneri-logo-jts, a#parteneri-logo-hostgate, a#parteneri-logo-mag {
@@ -1524,6 +1545,13 @@ a#parteneri-logo-mag {
     margin-left: -3%;
   }
 
+  a#parteneri-logo-placari {
+    width: 50%;
+    height: 25%;
+    top: 30%;
+    left: 25%
+  }
+
   a#parteneri-site-cj, a#parteneri-site-primarie {
     font-size: 0.55rem;
     text-align: center;
@@ -1558,6 +1586,13 @@ a#parteneri-logo-mag {
     font-size: 0.55rem;
     bottom: -46%;
     margin-left: 5%;
+    width: fit-content;
+  }
+
+  a#parteneri-site-placari {
+    font-size: 0.55rem;
+    top: 45%;
+    left: 39%;
     width: fit-content;
   }
 
